@@ -38,6 +38,7 @@ li{
 a{
     text-decoration: none;
     color: #fff;
+    font-weight: 600;
 }
 
 #mastercraft{
@@ -52,10 +53,14 @@ a{
     position: absolute;
 }
 
-#bookmark{
-    position: absolute;
-    right: 100px;
+#mastercraft p{
+    margin-bottom: 100px;
 }
+
+#mastercraft h1{
+    margin-top: 40px;
+}
+
 
 section{
     display: grid;
@@ -64,14 +69,15 @@ section{
 }
 
 #backers{
-    display: grid;
-    place-items: center;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: #fff;
     width: 750px;
     height: 300px;
     border-radius: 20px;
     margin-bottom: 50px;
+    margin-top: 175px;
 }
 
 #stands{
@@ -115,6 +121,7 @@ p{
     display: grid;
     place-items: center;
     margin-bottom: 3em;
+    margin-top: -80px;
 }
 
 .stands{
