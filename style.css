@@ -19,7 +19,6 @@ header{
     display: flex;
     background: url(/images/image-hero-desktop.jpg);
     height: 400px;
-    width: 1440px;
     text-align: start;
 }
 
@@ -32,13 +31,17 @@ ul{
 
 li{
     text-decoration: none;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 a{
     text-decoration: none;
     color: #fff;
     font-weight: 600;
+}
+
+a:hover{
+    color: #3CB4AC;
 }
 
 #mastercraft{
@@ -80,6 +83,17 @@ section{
     margin-top: 175px;
 }
 
+#s1{
+    margin: 2em;
+}
+
+#s2{
+    margin: 2em;
+}
+
+#s3{
+    margin: 2em;
+}
 #stands{
     display: grid;
     place-items: center;
